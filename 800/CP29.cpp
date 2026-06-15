@@ -12,15 +12,11 @@ int main(){
     for(int i=0;i<n;i++){
       cin>>a[i];
     }
-    if(a[0]==a[n-1]) cout<<"NO"<<'\n';
-    else{
-      cout<<"YES"<<'\n';
-      cout<<a[n-1];
-      for(int i=0;i<n-1;i++){
-        cout<<" "<< a[i] ;
-      }
-      cout<<'\n';
+    int ans=0;
+    for(int i=0;i<n-1;i++){
+      if((a[i]%2)==(a[i+1]%2)) ans++;
     }
+    cout<<ans<<'\n';
   }
   return 0;
 }
