@@ -1,0 +1,16 @@
+# Compiled Object files, executables, and binaries
+*.exe
+*.out
+*.o
+*.obj
+*.app
+
+# VS Code / Runner temporary files
+.vscode/
+tempCodeRunnerFile.*
+*.in
+*.ans
+
+# OS generated files
+.DS_Store
+Thumbs.db
